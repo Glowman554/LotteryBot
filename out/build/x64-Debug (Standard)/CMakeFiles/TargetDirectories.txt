@@ -1,0 +1,5 @@
+C:/Users/vossj/source/repos/LotteryBot/out/build/x64-Debug (Standard)/CMakeFiles/edit_cache.dir
+C:/Users/vossj/source/repos/LotteryBot/out/build/x64-Debug (Standard)/CMakeFiles/rebuild_cache.dir
+C:/Users/vossj/source/repos/LotteryBot/out/build/x64-Debug (Standard)/LotteryBot/CMakeFiles/LotteryBot.dir
+C:/Users/vossj/source/repos/LotteryBot/out/build/x64-Debug (Standard)/LotteryBot/CMakeFiles/edit_cache.dir
+C:/Users/vossj/source/repos/LotteryBot/out/build/x64-Debug (Standard)/LotteryBot/CMakeFiles/rebuild_cache.dir

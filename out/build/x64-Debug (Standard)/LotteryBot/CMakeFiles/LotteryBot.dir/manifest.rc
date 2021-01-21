@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/vossj/source/repos/LotteryBot/out/build/x64-Debug (Standard)/LotteryBot/CMakeFiles/LotteryBot.dir/embed.manifest"
