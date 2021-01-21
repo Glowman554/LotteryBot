@@ -1,7 +1,5 @@
 ﻿#include <core.h>
 
-using namespace std;
-
 
 int main() {
     HWND hWnd = FindWindowW(nullptr, MINECRAFT_VER);
@@ -20,7 +18,7 @@ int main() {
 
         return 0;
     }
-    cout << "Window not found!" << endl;
+    std::cout << "Window not found!" << std::endl;
     Sleep(5000);
     return -1;
 }
