@@ -12,7 +12,7 @@ int main(int argc, char** argv) {
 
     TCLAP::CmdLine cmd("LotteryBot", ' ', VERSION, true);
     TCLAP::ValueArg<int> maxTicketsArg("m", "maxTickets", "maxTickets", false, 10, "int");
-    TCLAP::ValueArg<int> klickPerSecondsArg("k", "klickPerSeconds", "klickPerSeconds", false, 20, "int");
+    TCLAP::ValueArg<int> klickPerSecondsArg("k", "klickPerSeconds", "klickPerSeconds", false, 10, "int");
     cmd.add(maxTicketsArg);
     cmd.add(klickPerSecondsArg);
     cmd.parse(argc, argv);
