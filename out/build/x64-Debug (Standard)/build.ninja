@@ -72,7 +72,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 build cmake_object_order_depends_target_LotteryBot: phony || LotteryBot\CMakeFiles\LotteryBot.dir
 
 build LotteryBot\CMakeFiles\LotteryBot.dir\LotteryBot.cpp.obj: CXX_COMPILER__LotteryBot_Debug ..\..\..\LotteryBot\LotteryBot.cpp || cmake_object_order_depends_target_LotteryBot
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -I..\..\..\LotteryBot\include
   OBJECT_DIR = LotteryBot\CMakeFiles\LotteryBot.dir
   OBJECT_FILE_DIR = LotteryBot\CMakeFiles\LotteryBot.dir
@@ -80,7 +80,7 @@ build LotteryBot\CMakeFiles\LotteryBot.dir\LotteryBot.cpp.obj: CXX_COMPILER__Lot
   TARGET_PDB = LotteryBot\LotteryBot.pdb
 
 build LotteryBot\CMakeFiles\LotteryBot.dir\core.cpp.obj: CXX_COMPILER__LotteryBot_Debug ..\..\..\LotteryBot\core.cpp || cmake_object_order_depends_target_LotteryBot
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
   INCLUDES = -I..\..\..\LotteryBot\include
   OBJECT_DIR = LotteryBot\CMakeFiles\LotteryBot.dir
   OBJECT_FILE_DIR = LotteryBot\CMakeFiles\LotteryBot.dir
