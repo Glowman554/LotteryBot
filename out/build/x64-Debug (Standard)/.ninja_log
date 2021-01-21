@@ -1,3 +1,6 @@
 # ninja log v5
 2	6239	632918790	LotteryBot/CMakeFiles/LotteryBot.dir/LotteryBot.cpp.obj	922a2c54876bce6c
 6240	8323	632918792	LotteryBot/LotteryBot.exe	be5ed7cf8b40cba
+2	5551	632919464	LotteryBot/CMakeFiles/LotteryBot.dir/LotteryBot.cpp.obj	750d529931a10c7b
+15	5558	632919464	LotteryBot/CMakeFiles/LotteryBot.dir/core.cpp.obj	524e575ec36cb7e7
+5559	6418	632919465	LotteryBot/LotteryBot.exe	a07bed917bfa5a3d

@@ -3,7 +3,9 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
+include_directories("include")
+
 # Fügen Sie der ausführbaren Datei dieses Projekts eine Quelle hinzu.
-add_executable (LotteryBot "LotteryBot.cpp" )
+add_executable (LotteryBot "LotteryBot.cpp"  "include/core.h" "core.cpp")
 
 # TODO: Fügen Sie bei Bedarf Tests hinzu, und installieren Sie Ziele.
