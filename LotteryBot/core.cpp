@@ -31,7 +31,7 @@ void StartBot(int maxTickets, int klickPerSeconds) {
 
 void ShutdownHook() {
     while (true) {
-        if (GetAsyncKeyState(VK_RCONTROL) != 0) {
+        if (GetAsyncKeyState(VK_ESCAPE) != 0) {
             exit(0);
         }
     }
