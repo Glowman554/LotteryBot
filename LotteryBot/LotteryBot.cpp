@@ -5,7 +5,12 @@ int maxTickets;
 int klickPerSeconds;
 
 int main(int argc, char** argv) {
-    TCLAP::CmdLine cmd("LotteryBot", ' ', "0.1", true);
+
+    std::cout << "LotteryBot version " << VERSION << " Copyright (C) 2020 " << VENDOR << std::endl;
+    std::cout << "This program comes with ABSOLUTELY NO WARRANTY" << std::endl;
+    std::cout << "This is free software, and you are welcome to redistribute it" << std::endl << std::endl;
+
+    TCLAP::CmdLine cmd("LotteryBot", ' ', VERSION, true);
     TCLAP::ValueArg<int> maxTicketsArg("m", "maxTickets", "maxTickets", false, 10, "int");
     TCLAP::ValueArg<int> klickPerSecondsArg("k", "klickPerSeconds", "klickPerSeconds", false, 20, "int");
     cmd.add(maxTicketsArg);

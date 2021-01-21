@@ -1,5 +1,8 @@
 #pragma once
 
+#define VERSION "0.1"
+#define VENDOR "Glowman554"
+
 #define MINECRAFT_VER L"Minecraft 1.16.4 - Multiplayer (3rd-party Server)"
 
 #define WINDOW_X 745
