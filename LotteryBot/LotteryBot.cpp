@@ -4,12 +4,12 @@ using namespace std;
 
 
 int main() {
-    HWND hWnd = FindWindowW(nullptr, L"Minecraft 1.16.4 - Multiplayer (3rd-party Server)");
+    HWND hWnd = FindWindowW(nullptr, MINECRAFT_VER);
     if (hWnd) {
         SetWindowPos(hWnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
         SetWindowPos(hWnd, HWND_NOTOPMOST, 0, 0, 0, 0, SWP_SHOWWINDOW | SWP_NOMOVE | SWP_NOSIZE);
 
-        MoveWindow(hWnd, 0, 0, 745, 520, true);
+        MoveWindow(hWnd, 0, 0, WINDOW_X, WINDOW_Y, true);
 
         Sleep(100);
         std::thread bot_thread([] { return StartBot(10, 20); });

@@ -7,7 +7,7 @@ void StartBot(int maxTickets, int klickPerSeconds) {
     while (true) {
         Sleep(50);
         for (int i = 1; i <= maxTickets; i++) {
-            SetCursorPos(375, 275);
+            SetCursorPos(NEWTICKET_X, NEWTICKET_Y);
             Sleep(1000 / klickPerSeconds);
             mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, 0, 0);
             mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, 0, 0);
@@ -16,7 +16,7 @@ void StartBot(int maxTickets, int klickPerSeconds) {
 
         }
         Sleep(50);
-        SetCursorPos(500, 275);
+        SetCursorPos(OPEN_ALL_X, OPEN_ALL_Y);
         Sleep(100);
         mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, 0, 0);
         mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, 0, 0);
