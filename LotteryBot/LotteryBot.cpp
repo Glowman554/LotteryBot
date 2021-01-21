@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
 
         return 0;
     }
-    std::cout << "Window not found!" << std::endl;
-    Sleep(5000);
+
+    MessageBox(NULL, "Window not found!", NULL, MB_OK | MB_ICONERROR);
     return -1;
 }
