@@ -12,7 +12,7 @@ void StartBot(int maxTickets, int klickPerSeconds) {
             mouse_event(MOUSEEVENTF_RIGHTDOWN, 0, 0, 0, 0);
             mouse_event(MOUSEEVENTF_RIGHTUP, 0, 0, 0, 0);
             totalTickets++;
-            std::cout << "Round: " << claim << ", Total Tickets: " << totalTickets << ", Ticket: " << i << "\r";
+            std::cout << ROUND << claim << TOTALTICKETS << totalTickets << TICKET << i << "\r";
 
         }
         Sleep(50);

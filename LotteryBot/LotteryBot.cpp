@@ -7,8 +7,8 @@ int klickPerSeconds;
 int main(int argc, char** argv) {
 
     std::cout << "LotteryBot version " << VERSION << " Copyright (C) 2020 " << VENDOR << std::endl;
-    std::cout << "This program comes with ABSOLUTELY NO WARRANTY" << std::endl;
-    std::cout << "This is free software, and you are welcome to redistribute it" << std::endl << std::endl;
+    std::cout << NOWARANTY << std::endl;
+    std::cout << REDISTRIBUTE << std::endl << std::endl;
 
     TCLAP::CmdLine cmd("LotteryBot", ' ', VERSION, true);
     TCLAP::ValueArg<int> maxTicketsArg("m", "maxTickets", "maxTickets", false, 10, "int");
@@ -38,6 +38,6 @@ int main(int argc, char** argv) {
         return 0;
     }
 
-    MessageBox(NULL, "Window not found!", NULL, MB_OK | MB_ICONERROR);
+    MessageBox(NULL, NOWINDOW, NULL, MB_OK | MB_ICONERROR);
     return -1;
 }
