@@ -7,3 +7,4 @@
 #define ROUND "Round: "
 #define TOTALTICKETS ", Total Tickets: "
 #define TICKET ", Ticket: "
+#define STOPING "Stoping ..."

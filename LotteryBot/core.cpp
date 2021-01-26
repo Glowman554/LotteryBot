@@ -32,6 +32,7 @@ void StartBot(int maxTickets, int klickPerSeconds) {
 void ShutdownHook() {
     while (true) {
         if (GetAsyncKeyState(VK_ESCAPE) != 0) {
+            std::cout << STOPING << std::endl;
             exit(0);
         }
     }

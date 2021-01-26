@@ -39,5 +39,6 @@ int main(int argc, char** argv) {
     }
 
     MessageBox(NULL, NOWINDOW, NULL, MB_OK | MB_ICONERROR);
+    std::cout << STOPING << std::endl;
     return -1;
 }
